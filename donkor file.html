@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>G's Web Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #000428, #004e92);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 2em 1em;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+      padding: 2em;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 16px;
+      padding: 2em;
+      width: 250px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: white;
+      display: block;
+    }
+
+    .card-link:hover {
+      color: #add8ff;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: rgba(0, 255, 0, 0.2);
+      border: 1px solid #25D366;
+      color: white;
+      backdrop-filter: blur(6px);
+      padding: 1em 1.5em;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>G's Web Design Studio</h1>
+    <p>Crafting Digital Excellence</p>
+  </header>
+
+  <main class="card-container">
+    <div class="card">
+      <a href="webdev.html" class="card-link">
+        <h2>Web Development</h2>
+        <p>Custom websites built for speed, functionality, and visual impact.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="seo.html" class="card-link">
+        <h2>SEO Optimization</h2>
+        <p>Boost your visibility with powerful search engine strategies.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="whatsapp.html" class="card-link">
+        <h2>WhatsApp Business Setup</h2>
+        <p>Connect better with clients through customized WhatsApp integrations.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="graphics.html" class="card-link">
+        <h2>Graphic Design</h2>
+        <p>Eye-catching visuals and branding to set your business apart.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="social.html" class="card-link">
+        <h2>Social Media Management</h2>
+        <p>Engage your audience and grow your presence across platforms.</p>
+      </a>
+    </div>
+  </main>
+
+  <a class="whatsapp-button" href="https://wa.me/233552078883" target="_blank" title="Chat on WhatsApp">
+    💬 Chat on WhatsApp
+  </a>
+</body>
+</html>
